@@ -1,9 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/README.md b/README.md
-index d53cff66b445a888e0bfa43dd421d6aff9ecd868..45758efde713096b2f3096a234705ac1deaf52ba 100644
---- a/README.md
-+++ b/README.md
-@@ -1,51 +1,131 @@
  ## MDP-Control-in-ATO-Systems
  
  Markov decision process (MDP) control for assembly-to-order (ATO) production systems under stochastic demand and lead times.
