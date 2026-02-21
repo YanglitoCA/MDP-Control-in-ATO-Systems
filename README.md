@@ -155,6 +155,3 @@
 +- Separate model dynamics from policy logic into reusable modules.
 +- Add plotting notebooks for cost/profit/acceptance tradeoff frontiers.
 +- Add reproducibility controls (explicit seeds in all scripts and saved config manifests).
- 
-EOF
-)
